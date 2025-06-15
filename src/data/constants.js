@@ -482,6 +482,17 @@ export const projects = [
     category: "web app",
     github: "https://github.com/arpitbaghla/maze_game",
   },
+  {
+    id: 10,
+    title: "Portfolio",
+    date: "Jan 2025 - June 2025",
+    description:
+      "A console-based Maze Game developed in C that allows users to navigate a dynamic maze with real-time movement and interaction. Features include a snake-like enemy, player controls, and an undo functionality powered by a custom LinkedList, enabling efficient backtracking with O(1) operations.",
+    image:
+      "https://raw.githubusercontent.com/arpitbaghla/maze_game/refs/heads/main/Screenshot%202025-06-15%20at%2022.37.28.png",
+    category: "web app",
+    github: "https://github.com/arpitbaghla/portfolio",
+  },
   // {
   //   id: 9,
   //   title: "Trackify",
