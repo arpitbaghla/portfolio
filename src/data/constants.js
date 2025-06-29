@@ -447,15 +447,28 @@ export const education = [
 
 export const projects = [
   {
+    id: 12,
+    title: "ExpenseTracker",
+    date: "Apr 2025 - June 2025",
+    description:
+      "A visually appealing MERN stack expense tracker that allows users to manage incomes and expenses with ease. Built using React with styled-components, it features a responsive dashboard, navigation bar, and separate views for income and expenses. State and data are managed globally using React Context, while a dynamic layout and memoized background animation (Orb) enhance performance and user experience.",
+    image:
+      "https://github.com/arpitbaghla/expense-tracker/blob/main/Screenshot%202025-06-29%20at%2022.11.48.png?raw=true",
+    category: "web app",
+    github: "https://github.com/arpitbaghla/expense-tracker",
+    webapp: "https://expenses-arpit.netlify.app/",
+  },
+  {
     id: 10,
     title: "Portfolio",
-    date: "Jan 2025 - June 2025",
+    date: "Jan 2025 - Apr 2025",
     description:
       "An interactive 3D portfolio website developed using React and Three.js to showcase projects, skills, and experience in a visually engaging format. Integrates smooth animations, responsive design, and modular components to deliver a modern and immersive user experience.",
     image:
       "https://raw.githubusercontent.com/arpitbaghla/portfolio/refs/heads/main/Screenshot%202025-06-15%20at%2023.13.03.png",
     category: "web app",
     github: "https://github.com/arpitbaghla/portfolio",
+    webapp: "https://arpitbaghla.netlify.app/",
   },
   {
     id: 9,
@@ -466,7 +479,8 @@ export const projects = [
     image:
       "https://raw.githubusercontent.com/arpitbaghla/budget/refs/heads/main/Screenshot%202025-06-15%20at%2022.45.02.png",
     category: "web app",
-    github: "https://github.com/arpitbaghla/budget",
+    github: "https://github.com/arpitbaghla/budget/",
+    webapp: "https://arpitbaghla.github.io/budget/",
   },
   {
     id: 11,
@@ -478,6 +492,7 @@ export const projects = [
       "https://raw.githubusercontent.com/arpitbaghla/maze_game/refs/heads/main/Screenshot%202025-06-15%20at%2022.37.28.png",
     category: "web app",
     github: "https://github.com/arpitbaghla/maze_game",
+    webapp: "https://github.com/arpitbaghla/maze_game",
   },
   // {
   //   id: 9,

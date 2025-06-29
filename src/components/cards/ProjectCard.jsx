@@ -19,6 +19,11 @@ const Card = styled.div`
     box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
     filter: brightness(1.1);
   }
+  .customStyle{
+    display:flex;
+    justify-content: space-around;
+    margin-right:30px;
+  }
 `;
 const Image = styled.img`
   width: 100%;
@@ -96,25 +101,30 @@ const Button = styled.a`
 `;
 
 const ProjectCard = ({ project }) => {
-    return (
-        <Card>
-            <Image src={project.image} />
-            <Tags></Tags>
-            <Details>
-                <Title>{project.title}</Title>
-                <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
-            </Details>
-            <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img} />
-                ))}
-            </Members>
-            <Button href={project.github} target="_blank">
-                View Code
-            </Button>
-        </Card>
-    );
+  return (
+    <Card>
+      <Image src={project.image} />
+      <Tags></Tags>
+      <Details>
+        <Title>{project.title}</Title>
+        <Date>{project.date}</Date>
+        <Description>{project.description}</Description>
+      </Details>
+      <Members>
+        {project.member?.map((member) => (
+          <Avatar src={member.img} />
+        ))}
+      </Members>
+      <div class="customStyle">
+        <Button href={project.github} target="_blank">
+          Code
+        </Button>
+        <Button href={project.webapp} target="_blank">
+          Live
+        </Button>
+      </div>
+    </Card>
+  );
 };
 
 export default ProjectCard;
