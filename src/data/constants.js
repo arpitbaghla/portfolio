@@ -99,6 +99,16 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
+      {
+        name: "C",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+      },
+      {
+        name: "C++",
+        image:
+          "https://w7.pngwing.com/pngs/646/751/png-transparent-the-c-programming-language-computer-programming-programmer-others-blue-class-logo-thumbnail.png",
+      },
       // {
       //   name: "Flask",
       //   image:
