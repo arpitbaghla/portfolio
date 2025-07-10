@@ -61,6 +61,11 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+      {
+        name: "EmailJS",
+        image:
+          "https://www.emailjs.com/logo.png",
+      },
       // {
       //   name: "Material UI",
       //   image:
@@ -299,7 +304,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "https://avatars.slack-edge.com/2024-04-05/6934042159649_ac803d1cddbcbef8f110_512.png",
       },
       // {
       //   name: "Adobe XD",
@@ -307,9 +312,9 @@ export const skills = [
       //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
       // },
       {
-        name: "Figma",
+        name: "Render",
         image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8NDQ0AAACmpqbk5OT39/c5OTn8/PwbGxsHBwcPDw/19fUFBQUtLS1ubm7q6uq/v7/t7e2Li4vf39+Xl5dFRUU/Pz/Nzc01NTUjIyPJycmBgYEvLy9NTU2wsLBkZGShoaFqampYWFiZmZkmJia2trbX19d5eXmDg4MbGwgvAAAEkklEQVR4nO2ci1biMBCG26ElJC2UOwoCigi+/xPupEW8IaTprkm6/3eUwxEPzOckmWmbGkUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw9xH8JaLTQyupzFqr978gsiIpRm1LoxDl8MwWm8F6dre/v+/P19vnZVK95Dq6v4G2yIartSJNLmVePukOOomelS1wFKLo7HpEMn5D8bfkH9xND60wTDuzdz357qhioofxxHV4DeEEHdZE8U+wYyd1HaQtZW2PsqkiqX401I7bSbUYhTdcdczFgMenqkblZZSk2TIKshHQISe7D+vLRfTLtN+EKKhjTro/z8AqgVVyiTYhJpGH6C3BMzm9BNiPi2xrKshZ7C8DTOLKXJDr/yxxHW9thlwlbiwz7/CKOggpiXpKpVfq/AVDHqhBrTZcCsd1BLUjdYtwFFlwcqsQfsthTNNgBLXioGYKGfkQUhee1MpgXNV+enYddg3qzsJSkmaF67iNEfO8viE7Dl0HbszCIoUMHV0HbsyjpeF65DpyU/Z2hlIeXEduiqy7lJaoON+4jtyQiV0Kuf8OZSJuLA1j2gXSuHXI/KjiI1wRAzghpc+aWbRspxzOAzi1qA1tBQMx5KbU3rAbgqGIpu3OIWM9DeNAVpqi3sHvJ8N1ANVCRM+2KeQjxG0IhtnM2lDS1HX4JgytZyF3bd4fIOp1Yt7AsO/7mRohsmh5/XLhVWjr/SRMRTQjdeVq4VUUPboWuIVIxZCsMxjn974fAHM7k/byaxd8r+Qv1qdpvL/CJoRtO8NHW0qGcKrtxXod5clL28z7cn/oWfdruhj6f5E069uXQk7h0e9dbnpHzM5eUCm68/yUvtCrjH2tj6n34lrhBml6bDBE2XDs+yRMnxqUehYcZK4NfkCcNogmepGpr6hOD/SUusigELcXN5GWh6zLWtsS3tHFRUlJT3rj3u87pgYfWv4RsqNsMgeJVqnJX/MfYPCh+lcWM8qt56DiVbSTufGLXgzaRBEVRyJlK6jinLoHPdZ/XZE/b7Sn+bB6elpQxJuVKAPSLyRjqxlYboLWrSj1Hn9X7JPhg95Qv9Hbzb7MyLf9vNliq6wmoCqXGMlv/+zsom9lqIPYPw11FB8Mq6ejZLwuN6jbjFCp3/l+x+/srBXVK+RDXvaLzGA8/BxJMl11iei8BfaKC11EysFwEjm+paTY5/H51ghmP3jsaMbzKsgPY+6a3mvnO5tF+Qmub/RKvhzs5ecEGAxDpRcSonHic7P51bAuuVyNIietiilNDDmFOS3Kaeak4TSjgWFZ6ZKqaHp8UNTAUPKkDWDbdpMcSlq4Dt+AJvOQVh4PzjNNRikVLTek1xAEGxlOWm/odZE4Y29YnXZxHf9tGhh2wrgNvZFhEMAQhv4DQxj6Dwxh6D8whKH/wBCG/gNDGPoPDGHoPzCEof/AEIb+A0MY+g8MYeg/MISh/8AQhv7TdkPRdkN9S1Mvt/wHF6EYTnqXb3cxIBDDYt21pB/K/3fMUlsC2JcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADThD0M3QQoPlWI+AAAAAElFTkSuQmCC",
       },
     ],
   },

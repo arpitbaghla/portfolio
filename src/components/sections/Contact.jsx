@@ -45,7 +45,7 @@ const Desc = styled.div`
   }
 `;
 
-const ContactForm = styled.div`
+const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
   display: flex;
@@ -58,6 +58,7 @@ const ContactForm = styled.div`
   margin-top: 28px;
   gap: 12px;
 `;
+
 const ContactTitle = styled.div`
   font-size: 28px;
   margin-bottom: 6px;
@@ -102,51 +103,60 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background: hsla(271, 100%, 40%, 1); /* slightly darker violet */
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }
 `;
 
 const Contact = () => {
-    const form = useRef();
-    const handelSubmit = (e) => {
-        e.preventDefault();
-        emailjs
-            .sendForm(
-                "service_tox7kqs",
-                "template_nv7k7mj",
-                form.current,
-                "SybVGsYS52j2TfLbi"
-            )
-            .then(
-                (result) => {
-                    alert("Message Sent");
-                    form.current.result();
-                },
-                (error) => {
-                    alert(error);
-                }
-            );
-    };
-    return (
-        <Container id="Education">
-            <Wrapper>
-                <Title>Contact</Title>
-                <Desc
-                    style={{
-                        marginBottom: "40px",
-                    }}
-                >
-                    Feel free to reach out to me for any questions or opportunities!
-                </Desc>
-                <ContactForm onSubmit={handelSubmit}>
-                    <ContactTitle>Email Me 🚀</ContactTitle>
-                    <ContactInput placeholder="Your Email" name="from_email" />
-                    <ContactInput placeholder="Your Name" name="from_name" />
-                    <ContactInput placeholder="Subject" name="subject" />
-                    <ContactInputMessage placeholder="Message" name="message" rows={4} />
-                    <ContactButton type="submit" value="Send" />
-                </ContactForm>
-            </Wrapper>
-        </Container>
-    );
+  const form = useRef();
+
+  const handelSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_s4vw9wr",
+        "template_4o7mn4c",
+        form.current,
+        "YtSdvumCI0PqCU76U"
+      )
+      .then(
+        (result) => {
+          alert("Message Sent");
+          form.current.reset();
+        },
+        (error) => {
+          alert(error);
+        }
+      );
+  };
+  return (
+    <Container id="Education">
+      <Wrapper>
+        <Title>Contact</Title>
+        <Desc
+          style={{
+            marginBottom: "40px",
+          }}
+        >
+          Feel free to reach out to me for any questions or opportunities!
+        </Desc>
+
+        <ContactForm ref={form} onSubmit={handelSubmit}>
+          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactInput type="email" required placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactButton type="submit" value="Send" />
+        </ContactForm>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Contact;
