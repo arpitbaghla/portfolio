@@ -476,6 +476,18 @@ export const projects = [
     webapp: "https://arpitbaghla.netlify.app/",
   },
   {
+    id: 11,
+    title: "MazeGame",
+    date: "Aug 2023 - Dec 2023",
+    description:
+      "A console-based Maze Game developed in C that allows users to navigate a dynamic maze with real-time movement and interaction. Features include a snake-like enemy, player controls, and an undo functionality powered by a custom LinkedList, enabling efficient backtracking with O(1) operations.",
+    image:
+      "https://raw.githubusercontent.com/arpitbaghla/maze_game/refs/heads/main/Screenshot%202025-06-15%20at%2022.37.28.png",
+    category: "web app",
+    github: "https://github.com/arpitbaghla/maze_game",
+    webapp: "https://youtu.be/99WviYV72B0",
+  },
+  {
     id: 9,
     title: "BudgetApp",
     date: "Aug 2024 - Dec 2024",
@@ -486,18 +498,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/arpitbaghla/budget/",
     webapp: "https://arpitbaghla.github.io/budget/",
-  },
-  {
-    id: 11,
-    title: "MazeGame",
-    date: "Aug 2023 - Dec 2023",
-    description:
-      "A console-based Maze Game developed in C that allows users to navigate a dynamic maze with real-time movement and interaction. Features include a snake-like enemy, player controls, and an undo functionality powered by a custom LinkedList, enabling efficient backtracking with O(1) operations.",
-    image:
-      "https://raw.githubusercontent.com/arpitbaghla/maze_game/refs/heads/main/Screenshot%202025-06-15%20at%2022.37.28.png",
-    category: "web app",
-    github: "https://github.com/arpitbaghla/maze_game",
-    webapp: "https://github.com/arpitbaghla/maze_game",
   },
   // {
   //   id: 9,
