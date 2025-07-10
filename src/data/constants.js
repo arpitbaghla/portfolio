@@ -11,7 +11,7 @@ export const Bio = {
     "I’m a motivated and adaptable individual with a strong passion for learning and growth. I thrive on challenges and take pride in delivering high-quality results. With a proactive mindset and a positive attitude, I’m committed to making meaningful contributions and continuously improving in everything I do.",
   github: "https://github.com/arpitbaghla",
   resume:
-    "https://drive.google.com/file/d/1z74BBb-ZLYmkS8UGreuWlMnKuSF8g9Sh/view?usp=sharing",
+    "https://drive.google.com/file/d/124qN7WnOq0VO9WSOHQKGD36WLzL9yyWE/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/arpitbaghla/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
